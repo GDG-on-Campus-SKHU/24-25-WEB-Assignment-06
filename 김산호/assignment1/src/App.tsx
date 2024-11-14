@@ -5,10 +5,10 @@ import PersonList from "./PersonList";
 
 function App() {
   const [personList, setPersonList] = useState<Person[]>([]);
-  const [name, setName] = useState("");
+  const [name, setName] = useState<string>("");
   const [age, setAge] = useState<number | undefined>(undefined);
-  const [gender, setGender] = useState("");
-  const [favorite, setFavorite] = useState("");
+  const [gender, setGender] = useState<string>("");
+  const [favorite, setFavorite] = useState<string>("");
 
   const addPerson: AddPersonFunc = (person: Person) => {
     const lastIndex = personList.length - 1;
