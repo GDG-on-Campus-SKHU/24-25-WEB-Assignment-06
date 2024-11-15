@@ -1,4 +1,4 @@
-export type Person = {
+type Person = {
   id: number,
   name: string,
   age: number,
@@ -6,4 +6,4 @@ export type Person = {
   favorite: string
 }
 
-export type AddPersonFunc = (person: Person) => void;
+type AddPersonFunc = (person: Person) => void;

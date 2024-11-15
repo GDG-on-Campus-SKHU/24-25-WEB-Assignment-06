@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import type { Person, AddPersonFunc } from './types';
 import style from "./App.module.less";
 import PersonList from "./PersonList";
 

@@ -1,5 +1,4 @@
 import style from './personList.module.less';
-import type { Person } from './types';
 
 type Props = {
   personList: Person[]

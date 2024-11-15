@@ -1,5 +1,4 @@
 import React from 'react'
-import type { Todo, ToggleTodoFunc, DeleteTodoFunc } from './types'
 import style from './TodoList.module.less';
 
 type Props = {
